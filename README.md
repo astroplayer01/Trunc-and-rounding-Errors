@@ -23,7 +23,7 @@ By analyzing these errors, we can gain insights into the accuracy and stability 
 To run the program, execute the `Truncation and Rounding.py` script. The main function will calculate and plot the errors for different step sizes and print the optimal h values.
 
 ```bash
-python Truncation and Rounding.py
+python "Truncation and Rounding.py"
 ```
 
 ## Conclusions
