@@ -192,7 +192,7 @@ def main() -> None:
     plt.loglog(h_values, total_errors_one, label='Total Error')
     plt.xlabel('log10 h')
     plt.ylabel('log10 |error|')
-    plt.title('Error Analysis for df_One')
+    plt.title('Error Analysis for Equation One')
     plt.legend()
     
     plt.subplot(1, 2, 2)
@@ -201,7 +201,7 @@ def main() -> None:
     plt.loglog(h_values, total_errors_two, label='Total Error')
     plt.xlabel('log10 h')
     plt.ylabel('log10 |error|')
-    plt.title('Error Analysis for df_Two')
+    plt.title('Error Analysis for Equation Two')
     plt.legend()
     
     plt.tight_layout()
